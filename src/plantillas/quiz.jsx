@@ -90,7 +90,7 @@ const Quiz = (props) => {
                                     <h2>qualification: {porcentaje} %</h2>
                                 </div>
                                 
-                                <Link to={"/tema"} className="btn btn-primary">Back</Link>
+                                <Link to={process.env.PUBLIC_URL +"/tema"}  className="btn btn-primary">Back</Link>
                                 <button onClick={() => window.location.reload()} className="btn btn-danger">Retry</button>
                             </>
                         
