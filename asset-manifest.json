@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/vertenses/static/css/main.6b06e7be.css",
-    "main.js": "/vertenses/static/js/main.3aa238ff.js",
+    "main.js": "/vertenses/static/js/main.4caed521.js",
     "static/js/787.ede4794e.chunk.js": "/vertenses/static/js/787.ede4794e.chunk.js",
     "static/media/logounah.png": "/vertenses/static/media/logounah.900f0548168fb19e54a6.png",
     "static/media/logo.svg": "/vertenses/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/vertenses/index.html",
     "main.6b06e7be.css.map": "/vertenses/static/css/main.6b06e7be.css.map",
-    "main.3aa238ff.js.map": "/vertenses/static/js/main.3aa238ff.js.map",
+    "main.4caed521.js.map": "/vertenses/static/js/main.4caed521.js.map",
     "787.ede4794e.chunk.js.map": "/vertenses/static/js/787.ede4794e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b06e7be.css",
-    "static/js/main.3aa238ff.js"
+    "static/js/main.4caed521.js"
   ]
 }
