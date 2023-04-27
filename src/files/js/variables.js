@@ -1083,7 +1083,7 @@ const Quizz =  [
 },
 {
     id: 5,
-    title: "Future simple",
+    title: "Future continuous",
     preguntas: [
 {
     id: 1,
