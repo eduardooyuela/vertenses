@@ -91,7 +91,11 @@ const Quiz = (props) => {
                                 </div>
                                 
                                 <Link to="/tema"  className="btn btn-primary">Back</Link>
-                                <button onClick={() => window.location.reload()} className="btn btn-danger">Retry</button>
+                                {
+                                    /*
+                                        <button onClick={() => window.location.reload()} className="btn btn-danger">Retry</button>        
+                                    */
+                                }
                             </>
                         
                         :
