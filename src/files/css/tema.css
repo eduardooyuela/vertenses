@@ -1,0 +1,184 @@
+/* enlaza esta fuente de google fonts Varela Round */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif !important;
+}
+.bar{
+    width: 100%;
+    height: 4rem;
+    background-color: #052E53;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    color: #F5F5F5;
+    font-family: 'Varela Round', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+
+.container-app{
+    width: 100%;
+    min-height: calc(100vh - 4rem);
+    display: flex; 
+    flex-direction: row-reverse;
+}
+
+
+.leftsection{
+    width: 30rem;
+    height: calc(100vh - 4rem);
+    border-left: 1px solid #d5d5d5;
+    box-sizing: border-box;
+    padding: 3rem;
+    position: sticky;
+    top: 4rem;
+}
+
+
+.title h1{
+    font-size: 2rem;
+    color: #052E53;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.listverbs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-top: 1rem;
+
+    border-radius: 1rem;
+}
+
+.listverbs  input[type="radio"] + label{
+    width: 100%;
+    font-size: 1.5rem;
+    color: #052E53;
+    font-family: 'Varela Round', sans-serif;
+    margin: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.listverbs  input[type="radio"]{
+    display: none;
+}
+
+
+
+.listverbs  input[type="radio"]:checked + label{
+    background-color: #d5d5d5;
+    
+}
+
+.listverbs li:hover{
+    width: 100%;
+    background-color: #ededed;
+  
+}
+.rightsection{
+    width: calc(100% - 30rem);
+    min-height: 200vh;
+    box-sizing: border-box;
+    padding: 3rem;
+    color: #052E53;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.quizz{
+    width: 100% !important;
+    
+}
+
+
+.informacion{
+    width: 100%;
+    box-sizing: border-box;
+ 
+   
+    color: #052E53;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 50px;
+}
+
+.informacion h2{
+    border-left: 5px solid #b9b9b9;
+    padding-left: 10px;
+    font-size: 2.5rem;
+    color: #052E53;
+    font-family: 'Varela Round', sans-serif;
+}
+.informacion p{
+    font-size: 1.3rem;
+    margin-top: 5px;
+    color: #052E53;
+    font-family: 'Varela Round', sans-serif;
+}
+.informacion b{
+    font-size: 1.6rem;
+    margin-top: 40px;
+    color: #052E53;
+    background-color: #f4f8ff;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Varela Round', sans-serif;
+}
+.ejemplos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ejemplo{
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    color: #052E53;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* medias querys */
+
+@media screen and (max-width: 1000px){
+    .container-app{
+        flex-direction: column;
+    }
+    .leftsection{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+    }
+    .rightsection{
+        width: 100%;
+        padding: 1rem;
+        height: auto;
+    }
+    .informacion{
+        margin-top: 0;
+    }
+    .informacion h2{
+        font-size: 2rem;
+    }
+    .ejemplos{
+        flex-direction: column;
+    }
+    .ejemplo{
+        width: 100%;
+    }
+}
+

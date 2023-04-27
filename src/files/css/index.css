@@ -1,0 +1,35 @@
+.header{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+.centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2rem;
+
+}
+.backg{
+    min-height: 100vh;
+    background-color: #fafcfe !important;
+}
+.white{
+    color: #fff !important;
+}

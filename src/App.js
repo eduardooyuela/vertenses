@@ -1,24 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-
+import { useState } from 'react';
+import Component from './components/Component';
+import Tema from './plantillas/tema';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Quiz from './plantillas/quiz';
+import Index from './plantillas';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Index/>} />
+        <Route path="/tema" element={<Tema/>} />
+        <Route path="/tema/quiz/:id" element={<Quiz/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
