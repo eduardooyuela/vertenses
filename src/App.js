@@ -6,13 +6,14 @@ import Tema from './plantillas/tema';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Quiz from './plantillas/quiz';
 import Index from './plantillas';
+
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={<Index/>} />
-        <Route path="/tema" element={<Tema/>} />
-        <Route path="/tema/quiz/:id" element={<Quiz/>} />
+        <Route path='/' element={<Index/>} />
+        <Route path={process.env.PUBLIC_URL +"/tema"} element={<Tema/>} />
+        <Route path={process.env.PUBLIC_URL +"/tema/quiz/:id"} element={<Quiz/>} />
       </Routes>
     </BrowserRouter>
   );
