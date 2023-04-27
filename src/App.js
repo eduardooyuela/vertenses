@@ -12,8 +12,8 @@ function App() {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path='/' element={<Index/>} />
-        <Route path={process.env.PUBLIC_URL +"/tema"} element={<Tema/>} />
-        <Route path={process.env.PUBLIC_URL +"/tema/quiz/:id"} element={<Quiz/>} />
+        <Route path="/tema" element={<Tema/>} />
+        <Route path="/tema/quiz/:id" element={<Quiz/>} />
       </Routes>
     </BrowserRouter>
   );
