@@ -23,7 +23,7 @@ const Tem = (props) => {
                         <>
                             <b>{use.title}</b>
                             <p>{use.description}</p>
-                            <p>Exaple: {use.Example}</p>
+                            <p>Example: {use.Example}</p>
                         </>
                     ))
     

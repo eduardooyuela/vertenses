@@ -21,7 +21,7 @@ function Footer() {
                     <div class="col-sm-4 col-md-3 item">
                         <h3>Developer</h3>
                         <ul>
-                            <p>Yahir eduardo Oyuela diaz</p>
+                            <p>Yahir Eduardo Oyuela Diaz</p>
                             <hr />
                             <p>I am a fan of programming and in my spare time I enjoy reading a good book.</p>
                         </ul>
